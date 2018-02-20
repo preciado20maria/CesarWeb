@@ -15,7 +15,7 @@ namespace CesarWeb.Controllers
 
         public CesarController(ISeguridadService<int> seguridadService)
         {
-           _seguridadService = seguridadService;
+            _seguridadService = seguridadService;
         }
 
 
